@@ -99,7 +99,7 @@
 	)
 	(fp_line
 		(start -1.25 14.03)
-		(end 1.41 14.03)
+		(end 1.33 14.030209)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -109,7 +109,7 @@
 	)
 	(fp_line
 		(start 1.33 -1.25)
-		(end 1.41 14.03)
+		(end 1.33 14.030209)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -149,7 +149,7 @@
 	)
 	(fp_line
 		(start -1.33 14.03)
-		(end 1.33 14.03)
+		(end 1.25 14.030209)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -159,7 +159,7 @@
 	)
 	(fp_line
 		(start 1.25 -1.25)
-		(end 1.33 14.03)
+		(end 1.25 14.030209)
 		(stroke
 			(width 0.12)
 			(type solid)
