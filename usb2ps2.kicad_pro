@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.45,
-          "width": 0.6
+          "drill": 2.1,
+          "height": 2.1,
+          "width": 2.1
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -242,8 +242,10 @@
       "multiple_net_names|711200|1257300|58643039-1d05-4351-be2b-ee6286151269|10ad0549-131d-433a-9770-6b620df943b7|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61",
       "pin_to_pin|1879600|292100|e0eaa48d-ac7c-4d19-958a-53690a79e0ba|6d330a9b-599f-4c57-9ac9-437209780298|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61",
       "power_pin_not_driven|1727200|292100|a163136a-7ec7-4bb0-b1aa-86abf5e8bc87|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+      "power_pin_not_driven|1790700|685800|3ea58aa9-034e-458e-9991-d9a637841bda|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/eba54b09-b969-416a-a8d3-73be7a73a77a|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/eba54b09-b969-416a-a8d3-73be7a73a77a|",
       "power_pin_not_driven|317500|1473200|9c874e3b-f676-412c-83f6-6943d6817297|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
       "power_pin_not_driven|571500|1689100|60ec0b45-a78e-41e0-a522-a75c323dc05a|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+      "power_pin_not_driven|762000|431800|805fe003-b278-424a-ad0f-8ab09010b03b|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/69007f77-f42d-4630-b138-d48a159b2251|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/69007f77-f42d-4630-b138-d48a159b2251|",
       "power_pin_not_driven|914400|647700|b5339980-d588-496f-a2ff-2359389b09d9|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|"
     ],
     "meta": {
@@ -724,7 +726,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "minifrank.step",
+      "step": "usb2ps2.step",
       "svg": "",
       "vrml": ""
     },
@@ -836,20 +838,24 @@
       "Root"
     ],
     [
-      "e9e85139-f67c-44b0-ab21-00695a32e959",
-      "LS KB_DATA"
+      "eba54b09-b969-416a-a8d3-73be7a73a77a",
+      "RP2040"
     ],
     [
-      "5682c8c6-1525-428c-8426-1581ad0d6910",
-      "LS KB_CLK"
+      "69007f77-f42d-4630-b138-d48a159b2251",
+      "Power"
     ],
     [
-      "abaef123-ac5e-41e0-98af-d28be5ce8811",
-      "LS MS_DATA"
+      "806fcbb1-aec7-4a20-b8ef-b5e6440967de",
+      "UART"
     ],
     [
-      "27b1672a-a3f1-417d-a36e-fc06ec6daa95",
-      "LS MS_CLK"
+      "0026ee43-61f7-4da2-b06e-4811e7b74caa",
+      "USB Stacked"
+    ],
+    [
+      "6c767f01-0461-4c4b-955a-2f0ac89894b4",
+      "PS2 with Diodes"
     ]
   ],
   "text_variables": {}

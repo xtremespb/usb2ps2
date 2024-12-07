@@ -1,4 +1,4 @@
-23810910287933484
+23823078692498624
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64729,12 +64729,33 @@ CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
 2
 2
 LIBS
+Medved_C_0805
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+LIBS
+Medved_D_0805
+Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode handsolder
+0
+2
+2
+LIBS
 Medved_Jack_3.5mm_CUI_SJ1-3535NG_Horizontal
 TRS 3.5mm, horizontal, through-hole, with switch, https://www.cui.com/product/resource/sj1-353xng.pdf
 TRS audio jack stereo horizontal
 0
 5
 5
+LIBS
+Medved_LED_0805
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
 LIBS
 Medved_PS2_Con6
 Through hole straight pin header, 1x06, 2.54mm pitch, single row
@@ -64743,12 +64764,26 @@ Through hole pin header THT 1x06 2.54mm single row
 6
 6
 LIBS
+Medved_R_0805
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+LIBS
 Medved_SD_Card
 http://www.farnell.com/datasheets/1917242.pdf
 MicroSD card socket
 0
 13
 11
+LIBS
+Medved_SOIC-8_5.23x5.23mm_P1.27mm
+SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
 LIBS
 Medved_SOT-223-3_TabPin2
 module CMS SOT223 4 pins
@@ -64770,6 +64805,13 @@ USB-A receptacle horizontal through-hole
 0
 6
 5
+LIBS
+Medved_USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked
+USB-A two stacked horizontal receptacle, through-hole (https://www.cuidevices.com/product/resource/uj2-adh-th.pdf)
+USB-A CUI stacked horizontal through-hole
+0
+12
+9
 LIBS
 Medved_USB_Pin4
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
@@ -64847,6 +64889,13 @@ USB-TYPE-C-31-M-12_lib2
 0
 16
 13
+LIBS
+USB1035GFP0BB
+USB1035-GF-P-0-B-B-2
+Connector
+0
+12
+12
 LIBS
 usb2ps2_logo
 
